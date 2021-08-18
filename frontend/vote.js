@@ -43,7 +43,7 @@ const vote = (event) => {
     },
     body: JSON.stringify(body),
   };
-  fetch("http://localhost:8000/api/v1/poll/vote", options)
+  fetch("https://poll--simulator.herokuapp.com/api/v1/poll/vote", options)
     .then((res) => res.json())
     .then((data) => {
       document.getElementById("info").innerHTML = data.message;
