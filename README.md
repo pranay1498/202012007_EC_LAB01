@@ -17,7 +17,7 @@ Used fecth API to call different backend services.
 **backend/api** folder has different controllers used to manipulate data fetched from storage, and  
 return the appropriate values.
 
-####Data Access Component
+####Data Access Component   
 **backend/DataAccess** folder has code which deals with data access from storage. Currently not using any database  
 therefore store the voters who already voted and different candidates information in different arrays locally.
 These arrays act as storage.
