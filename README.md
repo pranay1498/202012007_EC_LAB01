@@ -1,7 +1,9 @@
 # Poll Simulator
 
 ### Assignment for subject 'Enterprise Computing'  
-### Student ID:202012007  
+### Student ID:202012007 
+
+##### Heroku deployment: https://poll--simulator.herokuapp.com/
 
 **Description**  
 Simulates a polling application. Does not use a data storage therefor user needs to first add some   
