@@ -12,7 +12,7 @@ const addCandidate = (event) => {
     },
     body: JSON.stringify(body),
   };
-  fetch("http://localhost:8000/api/v1/poll/candidates", options)
+  fetch("https://poll--simulator.herokuapp.com/api/v1/poll/candidates", options)
     .then((data) => data.json())
     .then((res) => {
       console.log(res);

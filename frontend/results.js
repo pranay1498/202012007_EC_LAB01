@@ -1,6 +1,6 @@
 
 const winner=()=>{
-    fetch("http://localhost:8000/api/v1/poll/winner")
+    fetch("https://poll--simulator.herokuapp.com/api/v1/poll/winner")
     .then(res=>res.json())
     .then(data=>{
         const wonele=document.getElementById("won");

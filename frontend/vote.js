@@ -1,5 +1,5 @@
 const displayCandidates = () => {
-  fetch("http://localhost:8000/api/v1/poll/candidates")
+  fetch("https://poll--simulator.herokuapp.com/api/v1/poll/candidates")
     .then((res) => res.json())
     .then((data) => {
       if (data.message) {
